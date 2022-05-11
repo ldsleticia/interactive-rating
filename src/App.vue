@@ -1,9 +1,18 @@
 <template>
-  <div></div>
+  <div>
+   <RatingComponent/>
+   <ThankyouComponent/>
+  </div>
 </template>
 
 <script>
+import RatingComponent from './components/RatingComponent.vue';
+import ThankyouComponent from './components/ThankYouComponent.vue';
+
 export default {
-  components: {},
+  components: {
+    RatingComponent,
+    ThankyouComponent,
+  },
 };
 </script>
